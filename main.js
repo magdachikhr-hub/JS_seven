@@ -43,3 +43,23 @@ if (student && age2 > 20) {
 } else {
   console.log("you dont get a discount");
 }
+
+// or
+
+let pay = true;
+let VIP = false;
+
+if (pay || VIP) {
+  console.log("you can go in");
+} else {
+  console.log("you can not go in");
+}
+
+// !
+let isLoggedIn = true;
+
+if (!isLoggedIn) {
+  console.log("login");
+} else {
+  console.log("welcome");
+}
