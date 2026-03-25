@@ -63,3 +63,45 @@ if (!isLoggedIn) {
 } else {
   console.log("welcome");
 }
+
+//
+
+let username = "admin";
+let password = "1234";
+
+if (username === "admin" && password === "1234") {
+  console.log("you are logged in");
+} else {
+  console.log("invalid credentials");
+}
+
+// ტასკ 5 -  Movie entry
+
+// age >= 16 AND hasTicket → enter
+// OR if VIP → always enter
+
+//  order:    ()   ->     !    ->    &&   ->   ||
+
+console.log(true && (false || (true && (!false || false))) && false);
+
+// if ((age >= 18 && hasID) || hasID)
+// if (hasID)
+// something && X || X   result X
+
+// taks 13 - Security system
+let isNight = true;
+let motionDetected = true;
+let isOwnerHome = true;
+
+if (isNight && motionDetected && !isOwnerHome) {
+  console.log("alarm");
+}
+
+// task 12 - Smart door system
+let hasKey = false;
+let knowsPassword = true;
+let isOwner = false;
+
+// door opens if:
+// has key AND knows password
+// OR owner
