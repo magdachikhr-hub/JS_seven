@@ -86,3 +86,72 @@ if (num1 % 4 === 0 && num1 % 6 === 0) {
 
 let dice = Math.floor(Math.random() * 6) + 1;
 console.log(dice);
+
+//
+let a = 34;
+let b = 378;
+let c = 3;
+
+if (a > b && a > c) {
+  console.log("a aris yvelaze didi ricxvi");
+} else if (b > a && b > c) {
+  console.log("b aris yvelaze didi ricxvi");
+} else if (c > a && c > b) {
+  console.log("c aris yvelaze didi ricxvi");
+} else {
+  console.log("samive tolia");
+}
+
+// !== - ar udris (anacvlebs sammag tolobas)
+// != - (anacvlebs ormag tolobas)
+
+// if (a !== b || b !== c || a !== c) {
+//   if (a > b) {
+//     if (a > c) {
+//     }
+//   } else {
+//   }
+// } else {
+// }
+
+//
+
+let a1 = 60;
+let b1 = 60;
+let c1 = 500;
+
+if ((a1 === b1) === c1) {
+  console.log("samive tolia");
+} else {
+  if (a1 > b1) {
+    if (a1 > c1) {
+      console.log("a aris didi ricxvi");
+    } else {
+      console.log("c aris didi ricxvi");
+    }
+  } else {
+    if (b1 > c1) {
+      console.log("b aris didi ricxvi");
+    } else {
+      console.log("c aris didi ricxvi");
+    }
+  }
+}
+
+if ((a1 === b1) === c1) {
+  console.log("samive tolia");
+} else {
+  if (a1 > b1) {
+    if (a1 > c1) {
+      console.log(`${a1}`);
+    } else {
+      console.log(`${c1}`);
+    }
+  } else {
+    if (b1 > c1) {
+      console.log(`${b1}`);
+    } else {
+      console.log(`${c1}`);
+    }
+  }
+}
