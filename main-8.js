@@ -55,4 +55,34 @@ console.log(Math.pow(27, 1 / 3));
 console.log(Math.min(12, 4, 6, 7, 8, 6, 9.272, 6));
 console.log(Math.max(12, 4, 6, 7, 8, 6, 9.272, 6));
 
+//
+let num1 = 30;
 
+if (num1 % 3 === 0 && num1 % 5 === 0) {
+  console.log("iyopa unashtot");
+} else {
+  console.log("rcheba nashti");
+}
+
+//
+if (num1 % 4 === 0 || num1 % 6 === 0) {
+  console.log("iyopa unashtot");
+} else {
+  console.log("rcheba nashti");
+}
+
+//
+if (num1 % 4 === 0 && num1 % 6 === 0) {
+  console.log("iyopa unashtot");
+} else if (num1 % 6 === 0) {
+  console.log("mxolod 6ze iyopa");
+} else if (num1 % 4 === 0) {
+  console.log("mxolod 4ze iyopa");
+} else {
+  console.log("rcheba nashti");
+}
+
+// we mostly use floor
+
+let dice = Math.floor(Math.random() * 6) + 1;
+console.log(dice);
