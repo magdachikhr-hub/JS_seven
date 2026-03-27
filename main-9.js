@@ -42,6 +42,8 @@ sumNumbers2(num1, num2);
 sumNumbers2(1234, 489);
 sumNumbers2(57, 9);
 
+//
+
 function sumNumbers3(a, b) {
   console.log(a + b);
   console.log(a - b);
@@ -56,3 +58,18 @@ function returnText(name, age) {
 returnText("magda", 20);
 returnText("giorgi", 24);
 returnText("natia", 23);
+
+//
+
+//return - abrunebs icereba functionshi da boloshi
+
+let number = 70;
+console.log(number.toString());
+
+function fromNumberToString(num) {
+  console.log(num.toString());
+
+  console.log(num.toString() + 505050);
+}
+
+fromNumberToString(79796);
