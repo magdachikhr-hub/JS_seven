@@ -41,3 +41,18 @@ let num2 = 80;
 sumNumbers2(num1, num2);
 sumNumbers2(1234, 489);
 sumNumbers2(57, 9);
+
+function sumNumbers3(a, b) {
+  console.log(a + b);
+  console.log(a - b);
+}
+
+sumNumbers3(57, 9);
+
+function returnText(name, age) {
+  console.log(`hi my name is : ${name}, and my age is ${age}`);
+}
+
+returnText("magda", 20);
+returnText("giorgi", 24);
+returnText("natia", 23);
