@@ -155,3 +155,8 @@ if ((a1 === b1) === c1) {
     }
   }
 }
+
+let numb1 = "66";
+let numb2 = 66;
+
+console.log(numb1 !== numb2);

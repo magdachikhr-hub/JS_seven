@@ -105,3 +105,24 @@ let isOwner = false;
 // door opens if:
 // has key AND knows password
 // OR owner
+
+// console.log(Math.random() * 10)
+
+// console.log(Math.floor(Math.random() * 10))
+
+// console.log(Math.floor(6.3))
+// console.log(Math.ceil(6.3))
+// console.log(Math.round(6.5))
+
+let items = 23;
+let pages = Math.ceil(items / 10);
+
+// console.log(Math.random() * 10)
+
+// console.log(Math.floor(4.3))
+// console.log(Math.ceil(4.3))
+// console.log(Math.round(4.3))
+
+let randomNumber = Math.random() * 10;
+
+console.log(Math.floor(randomNumber));

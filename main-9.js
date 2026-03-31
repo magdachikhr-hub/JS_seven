@@ -73,3 +73,21 @@ function fromNumberToString(num) {
 }
 
 fromNumberToString(79796);
+
+//
+const arrFunc = (num) => {
+  console.log(num);
+};
+
+arrFunc(1);
+
+function exampleFunction() {
+  return "Hello";
+  return "World!";
+}
+console.log(exampleFunction());
+
+const sum = (num1, num2) => num1 + num2;
+console.log(sum(23, 0) + 10);
+
+const functionOne = () => {};
